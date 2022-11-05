@@ -1,0 +1,45 @@
+/* Color Theme Swatches in Hex */
+.mp1-hex { color: #D9D9D9; }
+.mp2-hex { color: #A6A6A6; }
+.mp3-hex { color: #595959; }
+.mp4-hex { color: #262626; }
+.mp5-hex { color: #0D0D0D; }
+
+/*Aston Martin DBS Racing Green Color Palette */
+.am1-hex { color: #ffffff; }
+.am2-hex { color: #cedc00; }
+.am3-hex { color: #9cbbb3; }
+.am4-hex { color: #00594f; }
+.am5-hex { color: #00352f; }
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/Users/putzstuck/Documents/UCF/projects/honey-badger/assets/images/carbon-map-background.jpeg");
+    background-color: #0D0D0D;
+}
+
+header {
+    background-color: #0D0D0D;
+    border-bottom: #cedc00 solid 5px;
+}
+
+footer {
+    height: 150px;
+    background-color: #00594f;
+}
+
+nav {
+    background-color: #00594f;
+}
+
+#place-holder {
+    height: 400px;
+}
+
+.carousel-inner{
+    width:100%;
+    max-height: 200px !important;
+  }

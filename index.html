@@ -8,8 +8,55 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
+<header class="container-fluid">
+    <h1 class="display-2 text-end fst-italic am4-hex">The Honey Badger</h1>
+    <p class="display-6 text-end am3-hex">A dynamic F1 application built on a Bootstrap framework</p>
+</header>
+
+<body>
+    <nav class="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand mp5-hex">Navbar</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-dark" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/Users/putzstuck/Documents/UCF/projects/honey-badger/assets/images/GettyImages-1244363572.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/Users/putzstuck/Documents/UCF/projects/honey-badger/assets/images/george-russell-mercedes-w13-1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/Users/putzstuck/Documents/UCF/projects/honey-badger/assets/images/photo-1557050688-a224243c012f.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+    </div>
+    <div id="place-holder" class="container-fluid">
+
+    </div>
+
+</body>
+
+<footer>
+    <nav class="nav justify-content-center">
+        <a class="nav-link am3-hex" href="#">Active</a>
+        <a class="nav-link am3-hex" href="#">Link</a>
+        <a class="nav-link am3-hex" href="#">Link</a>
+        <a class="nav-link am3-hex" href="#">Disabled</a>
+    </nav>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="./assets/js/script.js"></script>
 </html>
